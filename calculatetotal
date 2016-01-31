@@ -1,0 +1,13 @@
+// this goes at the top at the end of the first block above <!DOCTYPE html>
+
+$total = 0;
+
+//This goes immediately after the first <td><?php echo $amount; ?><td>
+
+<td>$<?php $cost = $amount * $price[$item]; 
+
+	$total  += $cost;  ?></td>
+
+// depending on our layout, we can add this:    <td colspan=“4”>Total</td>
+
+<td>$<?php echo $total; ?></td>
